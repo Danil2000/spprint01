@@ -1,0 +1,27 @@
+table {
+	border-collapse: collapse;
+}
+td {
+	padding: 3px;
+	border: 1px solid white;
+}
+th {
+	background-color: black;
+	color: white;
+}
+.t1 {
+	background-color: orange;
+	border-color: 
+}
+.t2 {
+	background-color: green;
+}
+.t3 {
+	background-color: blue;
+}
+.t4 {
+	background-color: yellow;
+}
+.t5 {
+	background-color: red;
+}

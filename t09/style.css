@@ -1,0 +1,48 @@
+.form, .forms {
+	border: 2px solid grey;
+	padding: 20px;
+}
+.head {
+	background-color: white;
+	margin-top: -30px;
+	height: 10px;
+	width: 135px;
+	text-align: center;
+}
+.i1{
+	display: inline-block;
+}
+.i2 {
+	display: inline-block;
+}
+.i3 {
+	display: inline-block;
+}
+input[placeholder="Superhero real name"] {
+	width: 129px;
+}
+input[placeholder="Superhero alias"] {
+	width: 95px;
+}
+input[placeholder=""] {
+	width: 25px;
+}
+.form2 {
+	border: 2px solid grey;
+	padding: 20px;
+	margin-top: 20px;
+}
+.head2 {
+	background-color: white;
+	margin-top: -29px;
+	height: 10px;
+	width: 50px;
+	text-align: center;
+}
+.head3 {
+	background-color: white;
+	margin-top: -29px;
+	height: 10px;
+	width: 115px;
+	text-align: center;
+}

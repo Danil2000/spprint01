@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<h1>Superhero Form</h1>
+		<form class="forms">
+			<div class="form">
+				<p class="head">About the Superhero</p>
+				<div class="i1">
+						<label for="rname">Real name</label>
+						<input type="text" placeholder="Superhero real name" autofocus>
+						<label for="alias">Superhero name</label>
+						<input type="text" placeholder="Superhero alias">
+						<label for="age">Age</label>
+						<input type="number" placeholder="" min="0" max="100">
+				</div>
+				<div>
+					<label for="about">About</label>
+					<textarea rows="5" placeholder="Information about Superhero, max 600 symbols" maxlength="600"></textarea>
+				</div>
+				<div>
+					<label for="photo">Photo</label>
+					<input name="myFile" type="file">
+				</div>
+			</div>
+			<div class="form2">
+				<p class="head2">Powers</p>
+				<div class="i1">
+					<input type="checkbox">
+					<label for="tel">Telekinesis</label>
+					<input type="checkbox">
+					<label for="super">Super strength or speed</label>
+					<input type="checkbox">
+					<label for="shape">Shapeshifting</label>
+					<input type="checkbox">
+					<label for="flight">Flight</label>
+					<input type="checkbox">
+					<label for="control">Elementtal controll</label>
+					<input type="checkbox">
+					<label for="other">Other</label>
+				</div>
+				<div>
+					<label for="level">Level of controll</label>
+					<input type="range" min="0" max="10" step="1" value="1">
+				</div>
+			</div>
+			<div class="form2">
+				<p class="head3">Origin of powers</p>
+				<div class="i1">
+					<input type="radio">
+  					<label for="male">Unknown</label><br>
+  					<input type="radio">
+  					<label for="lab">Freak lab accident</label><br>
+  					<input type="radio">
+  					<label for="ancient">Choosen by ancient</label>
+  					<input type="radio">
+  					<label for="nhuman"> Not human</label>
+  					<input type="radio">
+  					<label for="other"> Other</label>
+				</div>
+			</div>
+			<div>
+				<input type="submit" value="CLEAR">
+				<input type="submit" value="SEND">
+			</div>
+		</form>
+	</div>
+</body>
+</html>

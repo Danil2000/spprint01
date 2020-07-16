@@ -1,0 +1,125 @@
+body {
+	width: 90%;
+}
+
+.America {
+	width: 270px;
+    height: 140px;
+    border: 2px solid #ccc;
+    margin-top: 50px;
+    background: linear-gradient(#4568DC, #B06AB3);
+}
+.iamerica {
+	margin-top: -47px;
+}
+.tamerica {
+	margin-top: -133px;
+	color: white;
+	margin-left: 162px;
+	font-size: 12px;
+	font-family: Verdana;
+}
+
+.troger {
+	color: rgba(255, 255, 255, 0.5);
+	margin-top: -2px;
+	font-size: 9px;
+	margin-left: 172px;
+	font-family: Verdana;
+}
+.Iron {
+	width: 270px;
+    height: 140px;
+    border: 2px solid #ccc;
+    margin-top: -144px;
+    background: linear-gradient(#e52d27, #b31217);
+    margin-left: 318px;
+}
+.imron {
+	margin-top: -42px;
+}
+.tiron {
+	margin-top: -133px;
+	color: white;
+	margin-left: 162px;
+	font-size: 12px;
+	font-family: Verdana;
+}
+
+.tstark {
+	color: rgba(255, 255, 255, 0.5);
+	margin-top: -2px;
+	font-size: 9px;
+	margin-left: 172px;
+	font-family: Verdana;
+}
+.Widow {
+	width: 270px;
+    height: 140px;
+    border: 2px solid #ccc;
+    margin-top: -144px;
+    background: linear-gradient(#000, #61045F);
+    margin-left: 636px;
+}
+.iwidow {
+	margin-top: -42px;
+}
+.twidow {
+	margin-top: -133px;
+	color: white;
+	margin-left: 162px;
+	font-size: 12px;
+	font-family: Verdana;
+}
+
+.tromanov {
+	color: rgba(255, 255, 255, 0.5);
+	margin-top: -2px;
+	font-size: 9px;
+	margin-left: 172px;
+	font-family: Verdana;
+}
+.Spider {
+	width: 270px;
+    height: 140px;
+    border: 2px solid #ccc;
+    margin-top: -144px;
+    background: linear-gradient(#e52d27, #000);
+    margin-left: 954px;
+}
+.ispider {
+	margin-top: -7px;
+}
+.tspider {
+	margin-top: -133px;
+	color: white;
+	margin-left: 162px;
+	font-size: 12px;
+	font-family: Verdana;
+}
+
+.tpeter {
+	color: rgba(255, 255, 255, 0.5);
+	margin-top: -2px;
+	font-size: 9px;
+	margin-left: 172px;
+	font-family: Verdana;
+}
+
+@media screen and (max-width: 1240px) {
+	.Spider {
+		margin-top:-145px;
+		margin-left: 318px;
+	}
+
+	.Widow {
+			margin-top:45px;
+			margin-left: 0px;
+	}
+}
+
+@media screen and (min-width: 880px) {
+	div {
+		width: 100%;
+	}
+}
